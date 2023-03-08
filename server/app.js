@@ -17,8 +17,8 @@ app.post('/insert', (request, response) => {
 app.get('/getAll', (request, response) => {
     response.json({
         succes: true
-    })
-})
+    });
+});
 
 // update
 
